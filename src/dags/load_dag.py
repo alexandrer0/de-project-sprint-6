@@ -27,7 +27,7 @@ def load_dataset_file_to_vertica(
         host='51.250.75.20',
         port=5433,
         user='STV202312114',
-        password = ''
+        password = 'KVvKA8UHsCUmc6H'
     )
     columns = ', '.join(columns)
     copy_expr = f"""
